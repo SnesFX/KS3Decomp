@@ -1,0 +1,2383 @@
+{
+  "Files": [
+    {
+      "Name": "unity builtin extra",
+      "Assets": [
+        {
+          "PathID": 6,
+          "Name": "Normal-VertexLit",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 7,
+          "Name": "Normal-Diffuse",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 10770,
+          "Name": "UI-Default",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 10782,
+          "Name": "UI-DefaultFont",
+          "Type": "Shader"
+        }
+      ]
+    },
+    {
+      "Name": "unity default resources",
+      "Assets": [
+        {
+          "PathID": 17,
+          "Name": "Internal-ErrorShader",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 60,
+          "Name": "Shadow-ScreenBlur",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 61,
+          "Name": "Camera-DepthTexture",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 62,
+          "Name": "Camera-DepthNormalTexture",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 63,
+          "Name": "Internal-PrePassLighting",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 64,
+          "Name": "Internal-PrePassCollectShadows",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 65,
+          "Name": "Internal-CombineDepthNormals",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 66,
+          "Name": "Internal-BlitCopy",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 67,
+          "Name": "Shadow-ScreenBlurRotated",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 68,
+          "Name": "Internal-Clear",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 102,
+          "Name": "Internal-Flare",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 105,
+          "Name": "Internal-Halo",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 9000,
+          "Name": "Internal-GUITextureClip",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 9001,
+          "Name": "Internal-GUITextureClipText",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 9002,
+          "Name": "Internal-GUITexture",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 9003,
+          "Name": "Internal-GUITextureBlit",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 10001,
+          "Name": "Soft",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10101,
+          "Name": "Font",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 10103,
+          "Name": "Font Texture",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10200,
+          "Name": "pSphere1",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10202,
+          "Name": "Cube",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10203,
+          "Name": "pCylinder1",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10204,
+          "Name": "pPlane1",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10205,
+          "Name": "polySurface2",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10206,
+          "Name": "Cylinder",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10207,
+          "Name": "Sphere",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10208,
+          "Name": "Capsule",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10209,
+          "Name": "Plane",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10210,
+          "Name": "Quad",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10211,
+          "Name": "Icosphere",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10212,
+          "Name": "icosahedron",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10213,
+          "Name": "pyramid",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 10400,
+          "Name": "UnityWatermark-small",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10401,
+          "Name": "EscToExit_back",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10402,
+          "Name": "EscToExit_Text",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10403,
+          "Name": "UnitySplash",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10404,
+          "Name": "UnitySplash2",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10405,
+          "Name": "UnitySplash3",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10406,
+          "Name": "UnitySplashBack",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10407,
+          "Name": "UnityWatermark-trial",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10408,
+          "Name": "UnityWatermark-beta",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10409,
+          "Name": "UnityWatermark-edu",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10410,
+          "Name": "UnityWatermark-dev",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10411,
+          "Name": "WarningSign",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10412,
+          "Name": "UnityWatermark-DebugFlashPlayer",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10413,
+          "Name": "UnityWatermark-proto",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10414,
+          "Name": "UnityWatermarkPlugin-beta",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10415,
+          "Name": "UnitySplashVRLogo",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10416,
+          "Name": "UnitySplashVRPoweredBy",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 10753,
+          "Name": "Sprites-Default",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 11001,
+          "Name": "box",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11002,
+          "Name": "button active",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11003,
+          "Name": "button hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11004,
+          "Name": "button on hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11005,
+          "Name": "button on",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11006,
+          "Name": "button",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11007,
+          "Name": "horizontal scrollbar thumb",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11008,
+          "Name": "horizontal scrollbar",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11009,
+          "Name": "horizontalslider",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11010,
+          "Name": "slider thumb active",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11011,
+          "Name": "slider thumb",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11012,
+          "Name": "slidert humb hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11013,
+          "Name": "toggle active",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11014,
+          "Name": "toggle hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11015,
+          "Name": "toggle on hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11016,
+          "Name": "toggle on",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11017,
+          "Name": "toggle on active",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11018,
+          "Name": "toggle",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11019,
+          "Name": "vertical scrollbar thumb",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11020,
+          "Name": "vertical scrollbar",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11021,
+          "Name": "verticalslider",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11022,
+          "Name": "window on",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11023,
+          "Name": "window",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11024,
+          "Name": "textfield",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11025,
+          "Name": "textfield on",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11026,
+          "Name": "textfield hover",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 11998,
+          "Name": "DeveloperConsole",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 11999,
+          "Name": "UserAuthorizationDialog",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 12000,
+          "Name": "Terrain",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 12001,
+          "Name": "GUISkin",
+          "Type": "MonoScript"
+        }
+      ]
+    },
+    {
+      "Name": "resources.assets",
+      "Assets": [
+        {
+          "PathID": 1,
+          "Name": "Unlit - Transparent Colored 2",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 2,
+          "Name": "Unlit - Transparent Packed 1",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 3,
+          "Name": "Unlit - Text 3",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 4,
+          "Name": "Unlit - Text 2",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 5,
+          "Name": "Unlit - Premultiplied Colored 3",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 6,
+          "Name": "Unlit - Premultiplied Colored 2",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 7,
+          "Name": "Unlit - Transparent Colored (TextureClip)",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 8,
+          "Name": "Unlit - Text",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 9,
+          "Name": "Unlit - Premultiplied Colored (TextureClip)",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 10,
+          "Name": "Unlit - Transparent Colored 3",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 11,
+          "Name": "Unlit - Premultiplied Colored 1",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 12,
+          "Name": "Unlit - Text 1",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 13,
+          "Name": "Unlit - Transparent Colored 1",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 14,
+          "Name": "Unlit - Transparent Packed 3",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 15,
+          "Name": "Unlit - Transparent Colored (Packed) (TextureClip)",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 16,
+          "Name": "Unlit - Premultiplied Colored",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 17,
+          "Name": "Unlit - Text (TextureClip)",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 18,
+          "Name": "Unlit - Transparent Packed",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 19,
+          "Name": "Unlit - Transparent Packed 2",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 20,
+          "Name": "Localization",
+          "Type": "TextAsset"
+        }
+      ]
+    },
+    {
+      "Name": "sharedassets0.assets",
+      "Assets": [
+        {
+          "PathID": 28,
+          "Name": "simpleSmoke3",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 29,
+          "Name": "OsanaHair",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 30,
+          "Name": "HairKuudere",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 31,
+          "Name": "TsunUniform",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 32,
+          "Name": "MotionBlurJitter",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 33,
+          "Name": "ritualLightning",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 34,
+          "Name": "smokeRay",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 35,
+          "Name": "Eyepatch",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 36,
+          "Name": "spikyFalloffLightbeam",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 37,
+          "Name": "thickFlash",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 38,
+          "Name": "simpleFlash",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 39,
+          "Name": "simpleArrow",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 40,
+          "Name": "NoiseAndGrain",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 41,
+          "Name": "falloffLine",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 42,
+          "Name": "KuuUniform",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 43,
+          "Name": "smokyRing",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 44,
+          "Name": "VignetteMask",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 45,
+          "Name": "RandomVectors",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 46,
+          "Name": "hexShape",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 47,
+          "Name": "4pebbles",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 48,
+          "Name": "HairHime",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 49,
+          "Name": "AccessoryTexture",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 50,
+          "Name": "OsanaStocking",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 51,
+          "Name": "PM-40_Variant1_AlbedoTransparency",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 52,
+          "Name": "HimeUniform",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 53,
+          "Name": "Font Texture",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 54,
+          "Name": "HairTsun",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 55,
+          "Name": "SciFi Atlas",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 56,
+          "Name": "Chair",
+          "Type": "Texture2D"
+        },
+        {
+          "PathID": 57,
+          "Name": "LongHair",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 58,
+          "Name": "f02_schoolwear_200_h",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 59,
+          "Name": "BaldSchoolUniformNew",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 60,
+          "Name": "CrownMesh",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 61,
+          "Name": "MP40_Body",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 62,
+          "Name": "tubeTop",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 63,
+          "Name": "Ponytail",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 64,
+          "Name": "eyepatch",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 65,
+          "Name": "OsanaHairMesh",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 66,
+          "Name": "Chair",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 67,
+          "Name": "MP40_Receiver",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 68,
+          "Name": "MP40_Top",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 69,
+          "Name": "MP40_Magazine",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 70,
+          "Name": "MP40_Trigger",
+          "Type": "Mesh"
+        },
+        {
+          "PathID": 71,
+          "Name": "Alpha-Diffuse",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 72,
+          "Name": "Alpha-VertexLit",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 73,
+          "Name": "Particle Add",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 74,
+          "Name": "Particle Alpha Blend",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 75,
+          "Name": "Tonemapper",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 76,
+          "Name": "Toony-LightedOutline",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 77,
+          "Name": "BrightPassFilter2",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 78,
+          "Name": "ChromaticAberrationShader",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 79,
+          "Name": "ColorCorrectionCurvesSimple",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 80,
+          "Name": "SSAOShader",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 81,
+          "Name": "LensFlareCreate",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 82,
+          "Name": "Toony-Lighted",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 83,
+          "Name": "VignettingShader",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 84,
+          "Name": "ColorCorrectionCurves",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 85,
+          "Name": "MotionBlurClear",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 86,
+          "Name": "BlendForBloom",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 87,
+          "Name": "CameraMotionBlur",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 88,
+          "Name": "NoiseAndGrainDX11",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 89,
+          "Name": "Toony-BasicOutline",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 90,
+          "Name": "DepthOfFieldScatter",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 91,
+          "Name": "NoiseAndGrain",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 92,
+          "Name": "BlurAndFlares",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 93,
+          "Name": "Toony-Basic",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 94,
+          "Name": "DepthOfFieldDX11",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 95,
+          "Name": "ColorCorrectionSelective",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 96,
+          "Name": "Unlit - Transparent Colored",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 97,
+          "Name": "SeparableBlur",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 98,
+          "Name": "CameraMotionBlurDX11",
+          "Type": "Shader"
+        },
+        {
+          "PathID": 107,
+          "Name": "Kuu3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 108,
+          "Name": "Osana Line 2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 109,
+          "Name": "Tsun4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 110,
+          "Name": "KuuComment2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 111,
+          "Name": "KuuComment5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 112,
+          "Name": "Rival_1_PainScreamShort-07",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 113,
+          "Name": "Rival_1_PainScreamShort-09",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 114,
+          "Name": "Hmph1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 115,
+          "Name": "Kuu5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 116,
+          "Name": "Tsun1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 117,
+          "Name": "Tsun5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 118,
+          "Name": "Blink5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 119,
+          "Name": "KuuComment3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 120,
+          "Name": "Osana Line 9",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 121,
+          "Name": "Hmph2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 122,
+          "Name": "Osana Line 10",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 123,
+          "Name": "Blink2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 124,
+          "Name": "Rival_1_PainScreamShort-11",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 125,
+          "Name": "KuudereMurder5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 126,
+          "Name": "Gunshot",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 127,
+          "Name": "KuudereMurder3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 128,
+          "Name": "Blink4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 129,
+          "Name": "Himedere4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 130,
+          "Name": "Rival_1_PainScreamShort-02",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 131,
+          "Name": "Osana Line 6",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 132,
+          "Name": "Kuu2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 133,
+          "Name": "KuuComment1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 134,
+          "Name": "Kuu4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 135,
+          "Name": "KuudereMurder2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 136,
+          "Name": "Blink3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 137,
+          "Name": "Impact",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 138,
+          "Name": "Osana Line 5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 139,
+          "Name": "Tsun3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 140,
+          "Name": "Hmph3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 141,
+          "Name": "Osana Line 1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 142,
+          "Name": "Hmph5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 143,
+          "Name": "Osana Line 4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 144,
+          "Name": "Osana Line 3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 145,
+          "Name": "Hmph4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 146,
+          "Name": "Rival_1_PainScreamShort-03",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 147,
+          "Name": "Himedere3",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 148,
+          "Name": "Tsun6",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 149,
+          "Name": "Kuu1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 150,
+          "Name": "Tsun2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 151,
+          "Name": "Osana Line 7",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 152,
+          "Name": "Rival_1_PainScreamShort-01",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 153,
+          "Name": "KuudereMurder1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 154,
+          "Name": "Himedere2",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 155,
+          "Name": "Himedere5",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 156,
+          "Name": "Osana Line 8",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 157,
+          "Name": "Rival_1_PainScreamShort-06",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 158,
+          "Name": "Blink1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 159,
+          "Name": "Rival_1_PainScreamShort-10",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 160,
+          "Name": "Rival_1_PainScreamShort-04",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 161,
+          "Name": "KuudereMurder4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 162,
+          "Name": "Rival_1_PainScreamShort-05",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 163,
+          "Name": "Himedere1",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 164,
+          "Name": "KuuComment4",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 165,
+          "Name": "Rival_1_PainScreamShort-08",
+          "Type": "AudioClip"
+        },
+        {
+          "PathID": 172,
+          "Name": "GridLayoutGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 173,
+          "Name": "Scrollbar",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 174,
+          "Name": "EventTrigger",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 175,
+          "Name": "BaseInputModule",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 176,
+          "Name": "Physics2DRaycaster",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 177,
+          "Name": "MaskableGraphic",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 178,
+          "Name": "BaseRaycaster",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 179,
+          "Name": "AspectRatioFitter",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 180,
+          "Name": "PointerInputModule",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 181,
+          "Name": "Mask",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 182,
+          "Name": "ToggleGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 183,
+          "Name": "Outline",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 184,
+          "Name": "PhysicsRaycaster",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 185,
+          "Name": "Image",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 186,
+          "Name": "EventSystem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 187,
+          "Name": "LayoutGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 188,
+          "Name": "HorizontalLayoutGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 189,
+          "Name": "Selectable",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 190,
+          "Name": "Slider",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 191,
+          "Name": "RawImage",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 192,
+          "Name": "TweenFOV",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 193,
+          "Name": "UITextList",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 194,
+          "Name": "AnimationOrTween",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 195,
+          "Name": "UIToggledComponents",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 196,
+          "Name": "UIKeyBinding",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 197,
+          "Name": "SM_trailFade",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 198,
+          "Name": "TweenRotation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 199,
+          "Name": "BetterList",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 200,
+          "Name": "SM_randomRotation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 201,
+          "Name": "UIGrid",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 202,
+          "Name": "Crease",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 203,
+          "Name": "SM_materialColorRandomizer",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 204,
+          "Name": "UIFont",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 205,
+          "Name": "ChatInput",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 206,
+          "Name": "GlowEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 207,
+          "Name": "UISliderColors",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 208,
+          "Name": "NoiseAndGrain",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 209,
+          "Name": "TweenWidth",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 210,
+          "Name": "UIButtonOffset",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 211,
+          "Name": "SM_TransRimShaderInOut",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 212,
+          "Name": "SM_destroyThisTimed",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 213,
+          "Name": "UIBasicSprite",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 214,
+          "Name": "SM_prefabGenerator",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 215,
+          "Name": "UIButtonColor",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 216,
+          "Name": "GameController",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 217,
+          "Name": "TweenVolume",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 218,
+          "Name": "RealTime",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 219,
+          "Name": "UISprite",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 220,
+          "Name": "SetColorOnSelection",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 221,
+          "Name": "PropertyReference",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 222,
+          "Name": "TweenTransform",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 223,
+          "Name": "SunShafts",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 224,
+          "Name": "UIDrawCall",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 225,
+          "Name": "UIButton",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 226,
+          "Name": "DepthOfField34",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 227,
+          "Name": "GrayscaleEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 228,
+          "Name": "NGUIMath",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 229,
+          "Name": "AnimatedWidget",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 230,
+          "Name": "DownloadTexture",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 231,
+          "Name": "RPG_Animation_CharacterFadeOnly",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 232,
+          "Name": "InvAttachmentPoint",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 233,
+          "Name": "NGUIText",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 234,
+          "Name": "UICamera",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 235,
+          "Name": "LookAtTarget",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 236,
+          "Name": "UIRoot",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 237,
+          "Name": "Blur",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 238,
+          "Name": "UIButtonActivate",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 239,
+          "Name": "OsanaScript",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 240,
+          "Name": "BlurEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 241,
+          "Name": "GlobalFog",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 242,
+          "Name": "UIButtonKeys",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 243,
+          "Name": "TweenOrthoSize",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 244,
+          "Name": "SM_moveThis",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 245,
+          "Name": "UIScrollBar",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 246,
+          "Name": "TweenPosition",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 247,
+          "Name": "SM_effectCaster",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 248,
+          "Name": "Triangles",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 249,
+          "Name": "UIPlayAnimation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 250,
+          "Name": "UIButtonRotation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 251,
+          "Name": "UIGeometry",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 252,
+          "Name": "UIImageButton",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 253,
+          "Name": "BMGlyph",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 254,
+          "Name": "AmbientObscurance",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 255,
+          "Name": "UIToggle",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 256,
+          "Name": "MotionBlur",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 257,
+          "Name": "UIForwardEvents",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 258,
+          "Name": "UIAtlas",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 259,
+          "Name": "LoadLevelOnClick",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 260,
+          "Name": "PropertyBinding",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 261,
+          "Name": "EdgeDetectEffectNormals",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 262,
+          "Name": "UIPopupList",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 263,
+          "Name": "PostEffectsHelper",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 264,
+          "Name": "InvDatabase",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 265,
+          "Name": "UIButtonScale",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 266,
+          "Name": "ExampleDragDropSurface",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 267,
+          "Name": "SM_UVScroller",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 268,
+          "Name": "UIDragResize",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 269,
+          "Name": "UIKeyNavigation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 270,
+          "Name": "EquipRandomItem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 271,
+          "Name": "ActiveAnimation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 272,
+          "Name": "InvEquipment",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 273,
+          "Name": "TweenHeight",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 274,
+          "Name": "UITable",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 275,
+          "Name": "ByteReader",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 276,
+          "Name": "UIDragCamera",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 277,
+          "Name": "UISlider",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 278,
+          "Name": "UI2DSpriteAnimation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 279,
+          "Name": "AnimatedAlpha",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 280,
+          "Name": "UIStorageSlot",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 281,
+          "Name": "UIWrapContent",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 282,
+          "Name": "UICenterOnClick",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 283,
+          "Name": "TweenScale",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 284,
+          "Name": "TiltShiftHdr",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 285,
+          "Name": "UIPlaySound",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 286,
+          "Name": "Fisheye",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 287,
+          "Name": "LagPosition",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 288,
+          "Name": "UISnapshotPoint",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 289,
+          "Name": "OpenURLOnClick",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 290,
+          "Name": "InvStat",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 291,
+          "Name": "ColorCorrectionCurves",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 292,
+          "Name": "UIItemStorage",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 293,
+          "Name": "UIWidget",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 294,
+          "Name": "ImageEffects",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 295,
+          "Name": "SM_TransRimShaderIrisator",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 296,
+          "Name": "KuudereScript",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 297,
+          "Name": "RPG_Controller",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 298,
+          "Name": "BMFont",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 299,
+          "Name": "UIStretch",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 300,
+          "Name": "InvGameItem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 301,
+          "Name": "Tutorial5",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 302,
+          "Name": "FastBloom",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 303,
+          "Name": "SM_TransRimShaderFader",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 304,
+          "Name": "UIViewport",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 305,
+          "Name": "SpringPosition",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 306,
+          "Name": "UIProgressBar",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 307,
+          "Name": "UIDraggableCamera",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 308,
+          "Name": "UIDragDropItem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 309,
+          "Name": "TweenAlpha",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 310,
+          "Name": "SepiaToneEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 311,
+          "Name": "RPG_Camera",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 312,
+          "Name": "UICursor",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 313,
+          "Name": "Bloom",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 314,
+          "Name": "NoiseEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 315,
+          "Name": "VortexEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 316,
+          "Name": "AntialiasingAsPostEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 317,
+          "Name": "UILocalize",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 318,
+          "Name": "UIInput",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 319,
+          "Name": "UIPanel",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 320,
+          "Name": "EnvelopContent",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 321,
+          "Name": "RPG_Animation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 322,
+          "Name": "SSAOEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 323,
+          "Name": "UIEventListener",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 324,
+          "Name": "LagRotation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 325,
+          "Name": "WindowAutoYaw",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 326,
+          "Name": "UIRect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 327,
+          "Name": "UIToggledObjects",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 328,
+          "Name": "UISavedOption",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 329,
+          "Name": "UIDragObject",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 330,
+          "Name": "DynamicBoneCollider",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 331,
+          "Name": "UITooltip",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 332,
+          "Name": "UIWidgetContainer",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 333,
+          "Name": "SM_rotateThis",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 334,
+          "Name": "TwirlEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 335,
+          "Name": "SpringPanel",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 336,
+          "Name": "Vignetting",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 337,
+          "Name": "BMSymbol",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 338,
+          "Name": "ColorCorrectionLut",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 339,
+          "Name": "UIDragDropContainer",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 340,
+          "Name": "EventDelegate",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 341,
+          "Name": "Localization",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 342,
+          "Name": "LanguageSelection",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 343,
+          "Name": "UIAnchor",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 344,
+          "Name": "UITweener",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 345,
+          "Name": "SM_animSpeedRandomizer",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 346,
+          "Name": "EquipItems",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 347,
+          "Name": "PanWithMouse",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 348,
+          "Name": "Spin",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 349,
+          "Name": "TweenColor",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 350,
+          "Name": "AnimatedColor",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 351,
+          "Name": "ExampleDragDropItem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 352,
+          "Name": "SpinWithMouse",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 353,
+          "Name": "BloomAndLensFlares",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 354,
+          "Name": "UICenterOnChild",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 355,
+          "Name": "UITexture",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 356,
+          "Name": "SM_stohasticArrowMovement",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 357,
+          "Name": "UIScrollView",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 358,
+          "Name": "PostEffectsBase",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 359,
+          "Name": "Tonemapping",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 360,
+          "Name": "WindowDragTilt",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 361,
+          "Name": "UISpriteAnimation",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 362,
+          "Name": "SM_randomScale",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 363,
+          "Name": "UIButtonMessage",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 364,
+          "Name": "TypewriterEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 365,
+          "Name": "ContrastEnhance",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 366,
+          "Name": "PlayIdleAnimations",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 367,
+          "Name": "UIEventTrigger",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 368,
+          "Name": "UI2DSprite",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 369,
+          "Name": "UIOrthoCamera",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 370,
+          "Name": "ScreenOverlay",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 371,
+          "Name": "UILabel",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 372,
+          "Name": "ColorCorrectionEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 373,
+          "Name": "UIPlayTween",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 374,
+          "Name": "ContrastStretchEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 375,
+          "Name": "NGUIDebug",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 376,
+          "Name": "InvBaseItem",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 377,
+          "Name": "UIItemSlot",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 378,
+          "Name": "UIDragScrollView",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 379,
+          "Name": "NGUITools",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 380,
+          "Name": "UISoundVolume",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 381,
+          "Name": "DepthOfFieldScatter",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 382,
+          "Name": "UISpriteData",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 383,
+          "Name": "Quads",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 384,
+          "Name": "UIEquipmentSlot",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 385,
+          "Name": "UIInputOnGUI",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 386,
+          "Name": "UIDragDropRoot",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 387,
+          "Name": "ImageEffectBase",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 388,
+          "Name": "CameraMotionBlur",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 389,
+          "Name": "DynamicBone",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 390,
+          "Name": "SM_animRandomizer",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 391,
+          "Name": "Graphic",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 392,
+          "Name": "UIBehaviour",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 393,
+          "Name": "InputField",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 394,
+          "Name": "Text",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 395,
+          "Name": "HorizontalOrVerticalLayoutGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 396,
+          "Name": "StandaloneInputModule",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 397,
+          "Name": "VerticalLayoutGroup",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 398,
+          "Name": "GraphicRaycaster",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 399,
+          "Name": "ScrollRect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 400,
+          "Name": "Button",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 401,
+          "Name": "Shadow",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 402,
+          "Name": "LayoutElement",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 403,
+          "Name": "ContentSizeFitter",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 404,
+          "Name": "PositionAsUV1",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 405,
+          "Name": "CanvasScaler",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 406,
+          "Name": "BaseVertexEffect",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 407,
+          "Name": "TouchInputModule",
+          "Type": "MonoScript"
+        },
+        {
+          "PathID": 408,
+          "Name": "Toggle",
+          "Type": "MonoScript"
+        }
+      ]
+    },
+    {
+      "Name": "maindata",
+      "Assets": []
+    }
+  ]
+}
