@@ -933,7 +933,7 @@ public class UICamera : MonoBehaviour
 	{
 		mWidth = Screen.width;
 		mHeight = Screen.height;
-		if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer || Application.platform == RuntimePlatform.WP8Player || Application.platform == RuntimePlatform.BB10Player)
+		if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
 		{
 			useTouch = true;
 			if (Application.platform == RuntimePlatform.IPhonePlayer)
@@ -943,7 +943,7 @@ public class UICamera : MonoBehaviour
 				useController = false;
 			}
 		}
-		else if (Application.platform == RuntimePlatform.PS3 || Application.platform == RuntimePlatform.XBOX360)
+		else if (Application.platform == RuntimePlatform.PSP2 || Application.platform == RuntimePlatform.XBOX360)
 		{
 			useMouse = false;
 			useTouch = false;

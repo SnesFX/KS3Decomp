@@ -11,7 +11,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: YandereDev
+  companyName: Frye/TyDev and YandereDev
   productName: Kuudere Simulator 3
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -261,7 +261,14 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: 5c301de329d6f24409b9bfa02ee73714, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
@@ -510,8 +517,8 @@ PlayerSettings:
   psp2NPCommsSig: 
   psp2ParamSfxPath: 
   psp2ManualPath: 
-  psp2LiveAreaGatePath: 
-  psp2LiveAreaBackroundPath: 
+  psp2LiveAreaGatePath: sce_sys/startup.png
+  psp2LiveAreaBackroundPath: sce_sys/bg.png
   psp2LiveAreaPath: 
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
@@ -531,8 +538,8 @@ PlayerSettings:
   psp2PackagedResourcesPath: 
   psp2SaveDataQuota: 10240
   psp2ParentalLevel: 1
-  psp2ShortTitle: Not Set
-  psp2ContentID: IV0000-ABCD12345_00-0123456789ABCDEF
+  psp2ShortTitle: Kuudere Sim
+  psp2ContentID: IV0000-KUSM12345_00-0123456789ABCDEF
   psp2Category: 0
   psp2MasterVersion: 01.00
   psp2AppVersion: 01.00

@@ -146,7 +146,7 @@ public class Bloom : PostEffectsBase
 	{
 		if (!CheckResources())
 		{
-			Graphics.Blit(source, destination);
+			// Graphics.Blit(source, destination);
 			return;
 		}
 		doHdr = false;
@@ -183,14 +183,14 @@ public class Bloom : PostEffectsBase
 		float num4 = 0.001953125f;
 		if (quality > BloomQuality.Cheap)
 		{
-			Graphics.Blit(source, temporary, screenBlend, 2);
-			Graphics.Blit(temporary, temporary3, screenBlend, 2);
-			Graphics.Blit(temporary3, temporary2, screenBlend, 6);
+//			// Graphics.Blit(source, temporary, screenBlend, 2);
+//			// Graphics.Blit(temporary, temporary3, screenBlend, 2);
+//			// Graphics.Blit(temporary3, temporary2, screenBlend, 6);
 		}
 		else
 		{
-			Graphics.Blit(source, temporary);
-			Graphics.Blit(temporary, temporary2, screenBlend, 6);
+			// Graphics.Blit(source, temporary);
+			// Graphics.Blit(temporary, temporary2, screenBlend, 6);
 		}
 		BrightFilter(bloomThreshhold * bloomThreshholdColor, temporary2, temporary3);
 		if (bloomBlurIterations < 1)
@@ -205,29 +205,29 @@ public class Bloom : PostEffectsBase
 		{
 			float num5 = (1f + (float)i * 0.25f) * sepBlurSpread;
 			blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(0f, num5 * num4, 0f, 0f));
-			Graphics.Blit(temporary3, temporary4, blurAndFlaresMaterial, 4);
+//			// Graphics.Blit(temporary3, temporary4, blurAndFlaresMaterial, 4);
 			if (quality > BloomQuality.Cheap)
 			{
 				blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(num5 / num3 * num4, 0f, 0f, 0f));
-				Graphics.Blit(temporary4, temporary3, blurAndFlaresMaterial, 4);
+				// Graphics.Blit(temporary4, temporary3, blurAndFlaresMaterial, 4);
 				if (i == 0)
 				{
-					Graphics.Blit(temporary3, temporary2);
+					// Graphics.Blit(temporary3, temporary2);
 				}
 				else
 				{
-					Graphics.Blit(temporary3, temporary2, screenBlend, 10);
+					// Graphics.Blit(temporary3, temporary2, screenBlend, 10);
 				}
 			}
 			else
 			{
 				blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(num5 / num3 * num4, 0f, 0f, 0f));
-				Graphics.Blit(temporary4, temporary3, blurAndFlaresMaterial, 4);
+				// Graphics.Blit(temporary4, temporary3, blurAndFlaresMaterial, 4);
 			}
 		}
 		if (quality > BloomQuality.Cheap)
 		{
-			Graphics.Blit(temporary2, temporary3, screenBlend, 6);
+			// Graphics.Blit(temporary2, temporary3, screenBlend, 6);
 		}
 		if (!(lensflareIntensity <= float.Epsilon))
 		{
@@ -237,9 +237,9 @@ public class Bloom : PostEffectsBase
 				if (quality > BloomQuality.Cheap)
 				{
 					blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(0f, 1.5f / (1f * (float)temporary2.height), 0f, 0f));
-					Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 4);
+					// Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 4);
 					blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(1.5f / (1f * (float)temporary2.width), 0f, 0f, 0f));
-					Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 4);
+					// Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 4);
 				}
 				Vignette(0.975f, temporary4, temporary4);
 				BlendFlares(temporary4, temporary3);
@@ -254,22 +254,22 @@ public class Bloom : PostEffectsBase
 				blurAndFlaresMaterial.SetVector("_Threshhold", new Vector4(lensflareThreshhold, 1f, 0f, 0f));
 				blurAndFlaresMaterial.SetVector("_TintColor", new Vector4(flareColorA.r, flareColorA.g, flareColorA.b, flareColorA.a) * flareColorA.a * lensflareIntensity);
 				blurAndFlaresMaterial.SetFloat("_Saturation", lensFlareSaturation);
-				Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 2);
-				Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 3);
+				// Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 2);
+				// Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 3);
 				blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(num6 * num8, num7 * num8, 0f, 0f));
 				blurAndFlaresMaterial.SetFloat("_StretchWidth", hollyStretchWidth);
-				Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 1);
+				// Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 1);
 				blurAndFlaresMaterial.SetFloat("_StretchWidth", hollyStretchWidth * 2f);
-				Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 1);
+				// Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 1);
 				blurAndFlaresMaterial.SetFloat("_StretchWidth", hollyStretchWidth * 4f);
-				Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 1);
+				// Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 1);
 				for (int i = 0; i < hollywoodFlareBlurIterations; i++)
 				{
 					num8 = hollyStretchWidth * 2f / num3 * num4;
 					blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(num8 * num6, num8 * num7, 0f, 0f));
-					Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 4);
+					// Graphics.Blit(temporary2, temporary4, blurAndFlaresMaterial, 4);
 					blurAndFlaresMaterial.SetVector("_Offsets", new Vector4(num8 * num6, num8 * num7, 0f, 0f));
-					Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 4);
+					// Graphics.Blit(temporary4, temporary2, blurAndFlaresMaterial, 4);
 				}
 				if (lensflareMode == LensFlareStyle.Anamorphic)
 				{
@@ -288,12 +288,12 @@ public class Bloom : PostEffectsBase
 		screenBlend.SetTexture("_ColorBuffer", source);
 		if (quality > BloomQuality.Cheap)
 		{
-			Graphics.Blit(temporary3, temporary);
-			Graphics.Blit(temporary, destination, screenBlend, pass);
+			// // Graphics.Blit(temporary3, temporary);
+			// // Graphics.Blit(temporary, destination, screenBlend, pass);
 		}
 		else
 		{
-			Graphics.Blit(temporary3, destination, screenBlend, pass);
+			// // Graphics.Blit(temporary3, destination, screenBlend, pass);
 		}
 		RenderTexture.ReleaseTemporary(temporary);
 		RenderTexture.ReleaseTemporary(temporary2);
@@ -304,7 +304,7 @@ public class Bloom : PostEffectsBase
 	private void AddTo(float intensity_, RenderTexture from, RenderTexture to)
 	{
 		screenBlend.SetFloat("_Intensity", intensity_);
-		Graphics.Blit(from, to, screenBlend, 9);
+		// // Graphics.Blit(from, to, screenBlend, 9);
 	}
 
 	private void BlendFlares(RenderTexture from, RenderTexture to)
@@ -313,19 +313,19 @@ public class Bloom : PostEffectsBase
 		lensFlareMaterial.SetVector("colorB", new Vector4(flareColorB.r, flareColorB.g, flareColorB.b, flareColorB.a) * lensflareIntensity);
 		lensFlareMaterial.SetVector("colorC", new Vector4(flareColorC.r, flareColorC.g, flareColorC.b, flareColorC.a) * lensflareIntensity);
 		lensFlareMaterial.SetVector("colorD", new Vector4(flareColorD.r, flareColorD.g, flareColorD.b, flareColorD.a) * lensflareIntensity);
-		Graphics.Blit(from, to, lensFlareMaterial);
+		// // Graphics.Blit(from, to, lensFlareMaterial);
 	}
 
 	private void BrightFilter(float thresh, RenderTexture from, RenderTexture to)
 	{
 		brightPassFilterMaterial.SetVector("_Threshhold", new Vector4(thresh, thresh, thresh, thresh));
-		Graphics.Blit(from, to, brightPassFilterMaterial, 0);
+		// // Graphics.Blit(from, to, brightPassFilterMaterial, 0);
 	}
 
 	private void BrightFilter(Color threshColor, RenderTexture from, RenderTexture to)
 	{
 		brightPassFilterMaterial.SetVector("_Threshhold", threshColor);
-		Graphics.Blit(from, to, brightPassFilterMaterial, 1);
+		// Graphics.Blit(from, to, brightPassFilterMaterial, 1);
 	}
 
 	private void Vignette(float amount, RenderTexture from, RenderTexture to)
@@ -333,11 +333,11 @@ public class Bloom : PostEffectsBase
 		if ((bool)lensFlareVignetteMask)
 		{
 			screenBlend.SetTexture("_ColorBuffer", lensFlareVignetteMask);
-			Graphics.Blit((!(from == to)) ? from : null, to, screenBlend, (!(from == to)) ? 3 : 7);
+			// Graphics.Blit((!(from == to)) ? from : null, to, screenBlend, (!(from == to)) ? 3 : 7);
 		}
 		else if (from != to)
 		{
-			Graphics.Blit(from, to);
+			// Graphics.Blit(from, to);
 		}
 	}
 

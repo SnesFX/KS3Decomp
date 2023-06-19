@@ -198,10 +198,6 @@ public class UIInput : MonoBehaviour
 				Init();
 			}
 			mDrawStart = 0;
-			if (Application.platform == RuntimePlatform.BB10Player)
-			{
-				value = value.Replace("\\b", "\b");
-			}
 			value = Validate(value);
 			if (!(mValue != value))
 			{

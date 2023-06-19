@@ -265,7 +265,7 @@ public class KuudereScript : MonoBehaviour
 				PreviousID = ID;
 				Timer = 0f;
 			}
-			if (Input.GetKeyDown("k"))
+			if (Input.GetKey(KeyCode.Joystick1Button2))
 			{
 				if (Tsundere || Himedere)
 				{
@@ -275,7 +275,7 @@ public class KuudereScript : MonoBehaviour
 				}
 				Timer = 10f;
 			}
-			if (Input.GetKeyDown("t"))
+			if (Input.GetKey(KeyCode.Joystick1Button1))
 			{
 				if (!Tsundere)
 				{
@@ -285,7 +285,7 @@ public class KuudereScript : MonoBehaviour
 				}
 				Timer = 10f;
 			}
-			if (Input.GetKeyDown("h"))
+			if (Input.GetKey(KeyCode.Joystick1Button0))
 			{
 				if (!Himedere)
 				{
@@ -295,7 +295,7 @@ public class KuudereScript : MonoBehaviour
 				}
 				Timer = 10f;
 			}
-			if (Input.GetKeyDown("b"))
+			if (Input.GetKey(KeyCode.Joystick1Button8))
 			{
 				if (Tsundere)
 				{
@@ -363,7 +363,7 @@ public class KuudereScript : MonoBehaviour
 				}
 				Comment = true;
 			}
-			if (Input.GetKeyDown("space"))
+			if (Input.GetKey(KeyCode.Joystick1Button9))
 			{
 				LookDirection = 0;
 				GunPhase++;
@@ -409,7 +409,7 @@ public class KuudereScript : MonoBehaviour
 					}
 				}
 			}
-			if (Input.GetKeyDown("o") && !SpawnOsana && !OsanaLives)
+			if (Input.GetKey(KeyCode.Joystick1Button3) && !SpawnOsana && !OsanaLives)
 			{
 				NewOsana = (GameObject)UnityEngine.Object.Instantiate(Osana, new Vector3(0f, 5f, -2.5f), Quaternion.identity);
 				SpawnOsana = true;
@@ -433,7 +433,7 @@ public class KuudereScript : MonoBehaviour
 					OsanaLives = true;
 				}
 			}
-			if (Input.GetKeyDown("`"))
+			if (Input.GetKey(KeyCode.Joystick1Button7))
 			{
 				Application.LoadLevel(Application.loadedLevel);
 			}
