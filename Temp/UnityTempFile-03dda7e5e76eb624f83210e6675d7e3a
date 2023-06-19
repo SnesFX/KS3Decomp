@@ -1,0 +1,290 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-optimize
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.WebModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\PSP2Player/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity 2017/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity 2017/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity 2017/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_2
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_PSVITA
+-define:UNITY_PSP2
+-define:UNITY_PSP2_API
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_AUDIO_MANAGER_BASED_SCHEDULING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_NETWORK
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:UNITY_PRO_LICENSE
+Assets/Scripts/Assembly-CSharp/ChatInput.cs
+Assets/Scripts/Assembly-CSharp/DownloadTexture.cs
+Assets/Scripts/Assembly-CSharp/EnvelopContent.cs
+Assets/Scripts/Assembly-CSharp/EquipItems.cs
+Assets/Scripts/Assembly-CSharp/EquipRandomItem.cs
+Assets/Scripts/Assembly-CSharp/ExampleDragDropItem.cs
+Assets/Scripts/Assembly-CSharp/ExampleDragDropSurface.cs
+Assets/Scripts/Assembly-CSharp/InvAttachmentPoint.cs
+Assets/Scripts/Assembly-CSharp/InvBaseItem.cs
+Assets/Scripts/Assembly-CSharp/InvDatabase.cs
+Assets/Scripts/Assembly-CSharp/InvEquipment.cs
+Assets/Scripts/Assembly-CSharp/InvGameItem.cs
+Assets/Scripts/Assembly-CSharp/InvStat.cs
+Assets/Scripts/Assembly-CSharp/LagPosition.cs
+Assets/Scripts/Assembly-CSharp/LagRotation.cs
+Assets/Scripts/Assembly-CSharp/LoadLevelOnClick.cs
+Assets/Scripts/Assembly-CSharp/LookAtTarget.cs
+Assets/Scripts/Assembly-CSharp/OpenURLOnClick.cs
+Assets/Scripts/Assembly-CSharp/PanWithMouse.cs
+Assets/Scripts/Assembly-CSharp/PlayIdleAnimations.cs
+Assets/Scripts/Assembly-CSharp/Properties/AssemblyInfo.cs
+Assets/Scripts/Assembly-CSharp/SetColorOnSelection.cs
+Assets/Scripts/Assembly-CSharp/Spin.cs
+Assets/Scripts/Assembly-CSharp/SpinWithMouse.cs
+Assets/Scripts/Assembly-CSharp/Tutorial5.cs
+Assets/Scripts/Assembly-CSharp/UICursor.cs
+Assets/Scripts/Assembly-CSharp/UIEquipmentSlot.cs
+Assets/Scripts/Assembly-CSharp/UIItemSlot.cs
+Assets/Scripts/Assembly-CSharp/UIItemStorage.cs
+Assets/Scripts/Assembly-CSharp/UISliderColors.cs
+Assets/Scripts/Assembly-CSharp/UIStorageSlot.cs
+Assets/Scripts/Assembly-CSharp/WindowAutoYaw.cs
+Assets/Scripts/Assembly-CSharp/WindowDragTilt.cs
+Assets/Scripts/Assembly-UnityScript/KuudereScript.cs
+Assets/Scripts/Assembly-UnityScript/OsanaScript.cs
+Assets/Scripts/Assembly-UnityScript/Properties/AssemblyInfo.cs
+Assets/Scripts/Assembly-UnityScript/SM_animRandomizer.cs
+Assets/Scripts/Assembly-UnityScript/SM_animSpeedRandomizer.cs
+Assets/Scripts/Assembly-UnityScript/SM_destroyThisTimed.cs
+Assets/Scripts/Assembly-UnityScript/SM_effectCaster.cs
+Assets/Scripts/Assembly-UnityScript/SM_materialColorRandomizer.cs
+Assets/Scripts/Assembly-UnityScript/SM_moveThis.cs
+Assets/Scripts/Assembly-UnityScript/SM_prefabGenerator.cs
+Assets/Scripts/Assembly-UnityScript/SM_randomRotation.cs
+Assets/Scripts/Assembly-UnityScript/SM_randomScale.cs
+Assets/Scripts/Assembly-UnityScript/SM_rotateThis.cs
+Assets/Scripts/Assembly-UnityScript/SM_stohasticArrowMovement.cs
+Assets/Scripts/Assembly-UnityScript/SM_trailFade.cs
+Assets/Scripts/Assembly-UnityScript/SM_TransRimShaderFader.cs
+Assets/Scripts/Assembly-UnityScript/SM_TransRimShaderInOut.cs
+Assets/Scripts/Assembly-UnityScript/SM_TransRimShaderIrisator.cs
+Assets/Scripts/Assembly-UnityScript/SM_UVScroller.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/AAMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/AmbientObscurance.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/AntialiasingAsPostEffect.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Bloom.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/BloomAndLensFlares.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/BloomScreenBlendMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Blur.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/BokehDestination.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/CameraMotionBlur.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ColorCorrectionCurves.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ColorCorrectionLut.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ColorCorrectionMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ContrastEnhance.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Crease.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/DepthOfField34.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/DepthOfFieldScatter.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Dof34QualitySetting.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/DofBlurriness.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/DofResolution.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/EdgeDetectEffectNormals.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/EdgeDetectMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/FastBloom.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Fisheye.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/GlobalFog.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/HDRBloomMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/LensflareStyle34.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/NoiseAndGrain.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/PostEffectsBase.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/PostEffectsHelper.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Properties/AssemblyInfo.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Quads.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ScreenOverlay.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/ShaftsScreenBlendMode.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/SunShafts.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/SunShaftsResolution.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/TiltShiftHdr.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Tonemapping.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Triangles.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/TweakMode34.cs
+Assets/Scripts/Assembly-UnityScript-firstpass/Vignetting.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/AbstractGenerator.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/AbstractGeneratorEnumerator.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/BooComparer.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/BooHashCodeProvider.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Builtins.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/DuckTypedAttribute.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/DynamicVariable.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/EnumeratorItemTypeAttribute.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/ActiveEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/CachingEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/ClosedEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/DeferredEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/EnvironmentBoundValue.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/EnvironmentChain.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/EnvironmentProvision.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/IEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/InstantiatingEnvironment.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/My.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Environments/ObjectFactory.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Function.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/GenericGenerator.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/GenericGeneratorEnumerator.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Hash.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/ICallable.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/IQuackFu.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/IQuackFuMember.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/IReflectiveQuackFu.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/List.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/MetaAttribute.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/ModuleAttribute.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Procedure.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/QuackFuMember.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/QuackFuMemberKind.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/ResourceManager.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Resources/StringResources.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/AssertionFailedException.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/CandidateMethod.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/AbstractDispatcherFactory.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Dispatcher.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/DispatcherCache.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/DispatcherKey.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/DispatcherEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/ExtensionMethodDispatcherEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/GetFieldEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/ImplicitConversionEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/MethodDispatcherEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/SetFieldEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/Emitters/SetPropertyEmitter.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/MethodDispatcherFactory.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/NumericPromotions.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/PropertyDispatcherFactory.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/SetOrGet.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/DynamicDispatching/SliceDispatcherFactory.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/ExtensionRegistry.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/ICoercible.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/MethodResolver.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/NumericTypes.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/RuntimeException.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/RuntimeServices.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/Runtime/TextReaderEnumerator.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/TypeInferenceRuleAttribute.cs
+Assets/Scripts/Boo.Lang/Boo/Lang/TypeInferenceRules.cs
+Assets/Scripts/Boo.Lang/Properties/AssemblyInfo.cs
+-r:"C:\Program Files\Unity 2017\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity 2017\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
