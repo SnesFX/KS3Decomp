@@ -139,38 +139,15 @@ public class KuudereScript : MonoBehaviour
 	{
 		Switch();
 		int num = 2;
-		Color color = Darkness.color;
-		float num2 = (color.a = num);
-		Color color3 = (Darkness.color = color);
+	//	Color color = Darkness.color;
+		float num2;
+	//	Color color3 = (Darkness.color = color);
 		Gun.active = false;
 	}
 
 	public virtual void Update()
 	{
 		Gunlight.intensity = Mathf.Lerp(Gunlight.intensity, 0f, Time.deltaTime * 10f);
-		if (!(Darkness.color.a <= 0f))
-		{
-			if (!FadeOut)
-			{
-				float a = Darkness.color.a - Time.deltaTime;
-				Color color = Darkness.color;
-				float num = (color.a = a);
-				Color color3 = (Darkness.color = color);
-			}
-			else
-			{
-				float a2 = Darkness.color.a + Time.deltaTime;
-				Color color4 = Darkness.color;
-				float num2 = (color4.a = a2);
-				Color color6 = (Darkness.color = color4);
-				if (!(Darkness.color.a < 1f))
-				{
-					Application.Quit();
-				}
-			}
-		}
-		else
-		{
 			Timer += Time.deltaTime;
 			if (GetComponent<AudioSource>().clip != null && !(Timer <= GetComponent<AudioSource>().clip.length + 0.5f))
 			{
@@ -440,16 +417,8 @@ public class KuudereScript : MonoBehaviour
 			if (Input.GetKeyDown("escape"))
 			{
 				float a3 = 1E-06f;
-				Color color7 = Darkness.color;
-				float num6 = (color7.a = a3);
-				Color color9 = (Darkness.color = color7);
 				FadeOut = true;
 			}
-		}
-		if (Input.GetKeyDown("c"))
-		{
-			Comment = true;
-		}
 		float y2 = 0.5640461f + (3f - RPGCamera.distance) * 0.225f;
 		Vector3 position3 = Target.position;
 		float num7 = (position3.y = y2);

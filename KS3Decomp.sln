@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS3Decomp", "Assembly-CSharp.csproj", "{ABCADD48-4256-9332-266F-ECC28364EA69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ABCADD48-4256-9332-266F-ECC28364EA69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KS3Decomp", "Assembly-CSharp-firstpass.csproj", "{E2B3C8A0-BD2B-B425-64C9-CE68B4972705}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{E2B3C8A0-BD2B-B425-64C9-CE68B4972705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
