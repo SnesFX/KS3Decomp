@@ -651,62 +651,13 @@ public class UIDrawCall : MonoBehaviour
 		mMesh = null;
 	}
 
-	public static UIDrawCall Create(UIPanel panel, Material mat, Texture tex, Shader shader)
-	{
-		return Create(null, panel, mat, tex, shader);
-	}
-
-	private static UIDrawCall Create(string name, UIPanel pan, Material mat, Texture tex, Shader shader)
-	{
-		UIDrawCall uIDrawCall = Create(name);
-		uIDrawCall.gameObject.layer = pan.cachedGameObject.layer;
-		uIDrawCall.baseMaterial = mat;
-		uIDrawCall.mainTexture = tex;
-		uIDrawCall.shader = shader;
-		uIDrawCall.renderQueue = pan.startingRenderQueue;
-		uIDrawCall.sortingOrder = pan.sortingOrder;
-		uIDrawCall.manager = pan;
-		return uIDrawCall;
-	}
-
-	private static UIDrawCall Create(string name)
-	{
-		if (mInactiveList.size > 0)
-		{
-			UIDrawCall uIDrawCall = mInactiveList.Pop();
-			mActiveList.Add(uIDrawCall);
-			if (name != null)
-			{
-				uIDrawCall.name = name;
-			}
-			NGUITools.SetActive(uIDrawCall.gameObject, true);
-			return uIDrawCall;
-		}
-		GameObject gameObject = new GameObject(name);
-		UnityEngine.Object.DontDestroyOnLoad(gameObject);
-		UIDrawCall uIDrawCall2 = gameObject.AddComponent<UIDrawCall>();
-		mActiveList.Add(uIDrawCall2);
-		return uIDrawCall2;
-	}
-
 	public static void ClearAll()
 	{
 		bool isPlaying = Application.isPlaying;
 		int num = mActiveList.size;
 		while (num > 0)
 		{
-			UIDrawCall uIDrawCall = mActiveList[--num];
-			if ((bool)uIDrawCall)
-			{
-				if (isPlaying)
-				{
-					NGUITools.SetActive(uIDrawCall.gameObject, false);
-				}
-				else
-				{
-					NGUITools.DestroyImmediate(uIDrawCall.gameObject);
-				}
-			}
+			// do thing
 		}
 		mActiveList.Clear();
 	}
@@ -722,11 +673,7 @@ public class UIDrawCall : MonoBehaviour
 		int num = mInactiveList.size;
 		while (num > 0)
 		{
-			UIDrawCall uIDrawCall = mInactiveList[--num];
-			if ((bool)uIDrawCall)
-			{
-				NGUITools.DestroyImmediate(uIDrawCall.gameObject);
-			}
+			// do thing 2
 		}
 		mInactiveList.Clear();
 	}
@@ -744,25 +691,8 @@ public class UIDrawCall : MonoBehaviour
 		return num;
 	}
 
-	public static void Destroy(UIDrawCall dc)
+	public static void Destroy()
 	{
-		if (!dc)
-		{
-			return;
-		}
-		dc.onRender = null;
-		if (Application.isPlaying)
-		{
-			if (mActiveList.Remove(dc))
-			{
-				NGUITools.SetActive(dc.gameObject, false);
-				mInactiveList.Add(dc);
-			}
-		}
-		else
-		{
-			mActiveList.Remove(dc);
-			NGUITools.DestroyImmediate(dc.gameObject);
-		}
+		// Monika's writing tip of the day: ......You're too slow.
 	}
 }

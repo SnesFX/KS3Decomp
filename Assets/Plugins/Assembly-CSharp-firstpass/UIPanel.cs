@@ -1072,15 +1072,6 @@ public class UIPanel : UIRect
 				{
 					continue;
 				}
-				if (uIDrawCall == null)
-				{
-					uIDrawCall = UIDrawCall.Create(this, material, texture, shader);
-					uIDrawCall.depthStart = uIWidget.depth;
-					uIDrawCall.depthEnd = uIDrawCall.depthStart;
-					uIDrawCall.panel = this;
-				}
-				else
-				{
 					int num2 = uIWidget.depth;
 					if (num2 < uIDrawCall.depthStart)
 					{
@@ -1090,7 +1081,6 @@ public class UIPanel : UIRect
 					{
 						uIDrawCall.depthEnd = num2;
 					}
-				}
 				uIWidget.drawCall = uIDrawCall;
 				num++;
 				if (generateNormals)
