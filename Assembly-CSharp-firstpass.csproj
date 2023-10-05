@@ -180,6 +180,9 @@
      <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UIWidgetContainer.cs" />
      <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UIWrapContent.cs" />
      <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\VortexEffect.cs" />
+ <Reference Include="UnityEditor.StandardEvents">
+ <HintPath>C:/Users/Admin/Documents/GitHub/KS3Decomp/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Admin/Documents/GitHub/KS3Decomp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -188,9 +191,6 @@
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Admin/Documents/GitHub/KS3Decomp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Admin/Documents/GitHub/KS3Decomp/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AIModule.dll</HintPath>
