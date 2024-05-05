@@ -10,6 +10,6 @@
 
 # Credits
 
-* [Frye/TyDev](https://twitter.com/TyDev_) - Decomp + Vita Port (Coming soon!)
+* [Ty](https://twitter.com/TyDotCS) - Decomp + Vita Port (Coming soon!)
 
 * YandereDev - Original Game I think
